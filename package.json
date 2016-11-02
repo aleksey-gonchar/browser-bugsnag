@@ -1,0 +1,19 @@
+{
+  "name": "browser-bugsnag",
+  "version": "1.0.0",
+  "main": "/src/bugsnag-3.min.js",
+  "scripts": {
+    "rimraf": "rimraf",
+    "tslint": "tslint",
+    "typings": "typings",
+    "webpack": "webpack",
+
+    "postinstall": "npm run typings -- install",
+
+    "postversion": "git push && git push --tags"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": "6.8.1"
+  }
+}

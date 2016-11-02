@@ -1,0 +1,8 @@
+node_modules
+/build
+/uploads
+npm-debug.log
+config/secrets.*
+/src/**/*.js.map
+/typings
+/coverage
